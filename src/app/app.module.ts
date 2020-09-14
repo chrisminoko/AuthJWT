@@ -35,7 +35,7 @@ export function tokkenGetter(){
     JwtModule.forRoot({
       config:{
         tokenGetter:tokkenGetter,
-        whitelistedDomains:["localhost:52802"],
+        whitelistedDomains:["localhost:52803"],
         blacklistedRoutes:[]
       }
     })
